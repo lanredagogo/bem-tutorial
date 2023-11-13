@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    min-width: 700px;
+    min-height: 700px;
+    background-color: rgb(251, 249, 247);
+    margin: auto;
+    display: flex;
+}
+
+.card__description {
+    width: 900px;
+}
+
+.card__descriptio-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border: 3px solid rgb(250, 123, 123);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 100px;
+   
+}
+
+.logo_text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 4px;
+    
+    
+}
+
+.card__description-heading {
+    font-size: 54px;
+    font-weight: lighter;
+    color: rgb(253, 215, 168);
+    width: 300px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    letter-spacing: 10px;
+}
+.card__description-heading1 {
+    color: black;
+    font-weight: 700;
+}
+
+.card__description-sub-heading {
+    width: 400px;
+    text-wrap:balance;
+    margin-left: 130px;
+        margin-bottom: 50px;
+        line-height: 2;
+        color: rgb(252, 160, 48);
+}
+
+.card-subscribe {
+    margin-left: 130px;
+    align-items: center;
+    color:rgb(253, 215, 168) ;
+
+}
+.email_address {
+    width: 300px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid rgb(253, 220, 180);
+
+}
+
+.email_address::placeholder {
+    color: rgb(253, 215, 168);
+}
+
+.send_btn {
+    width: 100px;
+    height: 60px;
+    margin-left: -50px;
+    border-radius: 30px;
+        border: 2px solid rgb(253, 220, 180);
+        background-color: rgb(249, 163, 83);
+        box-shadow: 15px 15px 15px rgba(253, 202, 155, 0.297);
+}
+.img {
+    width:500px;
+        height:700px;
+}
